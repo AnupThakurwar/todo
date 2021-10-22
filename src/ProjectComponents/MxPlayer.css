@@ -1,0 +1,164 @@
+*{
+    box-sizing: border-box;
+    margin:0rem;
+    padding:0rem;
+    background-color: rgb(15, 23, 39) ;
+   
+}
+
+html{
+    font-size: 62.5%;
+}
+button{
+    margin:1.5rem;
+    padding: .5rem .8rem;
+    font-family:'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    letter-spacing: .2rem;
+    font-weight: 500;
+    color: #868686;
+    cursor: pointer;
+}
+
+
+.heading_style{
+    padding: 3.0rem 0;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    letter-spacing:1.5rem;
+    margin-bottom: 1 rem;
+    background-color:rgba(18, 18, 34, 0.945);
+    font-style: bold;
+    color: rgb(245, 245, 155);
+}
+.headingSub_style{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: white;   
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-style: bold;
+    letter-spacing: normal;
+}
+
+.headingSub2_Style{
+    font-family:'Raleway', sans-serif;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: normal;
+}
+
+.headingSub3_Style{
+    font-family:'Raleway', sans-serif;
+    font-size: 2.0rem;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: normal;
+    text-align: center;
+   
+}
+
+.cards{
+    width: 100%;
+    height: fit-content;
+  
+}
+
+.card{
+    margin: 6%;
+    height: 80vh;
+    width:21.25%;
+    border-radius: 1.2rem;
+    float: left;
+    font-size: 2rem;
+  
+    
+}
+
+.card_img{
+    width: 80%;
+    height: 23.5em;
+    border-radius: 1.2rem;
+    border-color: azure;
+    border-width: 0.8rem;
+   
+}
+
+.card_title{
+    font-size: 1.5em;
+    color: #FFD700;
+    background-color:  rgba(18, 18, 34, 0.945) ;
+    border-width: 0.8rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.card_sabout{
+    color: whitesmoke;
+    font-size: 0.9em;
+}
+.card_img:hover{
+    box-shadow: 0 8px 16px 0 rgba(255, 254, 254, 0.2);
+}
+
+ul{
+    display: flex;
+    justify-content: right;
+      
+}
+li{
+    padding: .5rem 1.1rem;
+    font-family:'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    letter-spacing: .6rem;
+    font-weight: 500;
+    color: #fbfbfb;
+    cursor: pointer;
+    list-style-type: none;
+
+}
+
+a:link{
+    text-decoration:none;
+    
+}
+li:hover{
+    
+    box-shadow: 0 8px 16px 0 rgba(255, 254, 254, 0.2);
+   
+}
+@media(max-width:750px){
+    html{
+        font-size: 55%;
+    }
+
+    .card{
+        margin: 6%;
+        height: 15vh;
+        width:32.25%;
+        border-radius: 1.2rem;
+        float: left;
+        font-size: 1rem;
+
+    }
+}
+.search_bar{
+    margin-left: 5.8rem;
+    border-radius: 1.5rem;
+    display: flex;
+    align-content: flex-end;
+
+}
+input{
+    padding: 0.5rem;
+    color: antiquewhite;
+    font-size: 2.9rem;
+    
+}
+
+
