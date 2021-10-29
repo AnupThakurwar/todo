@@ -215,7 +215,9 @@ li:hover {
     height: 3.5vh;
   }
   .search_bar {
+    height: 60px;
     margin-left: 1.8rem;
+    margin-right: 1.8rem;
     border-radius: 1.5rem;
     display: flex;
     align-content: flex-end;
