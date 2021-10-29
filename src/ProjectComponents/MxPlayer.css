@@ -163,8 +163,9 @@ li:hover {
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   }
   .card_title_atr{
-    width: 20em;
+    width: 30em;
     height: 2em;
+    margin-bottom: 1%;
 }
   .card_sabout {
     color: whitesmoke;
