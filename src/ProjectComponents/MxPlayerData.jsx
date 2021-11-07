@@ -27,7 +27,7 @@ const SData = [
       "https://upload.wikimedia.org/wikipedia/en/3/3c/JumanjiTheNextLevelTeaserPoster.jpg",
     title: "Jumanji: The Next Level",
     sabout:
-      "A group of four friends found their way out of a dangerous game that sucked them in. Three years later, they decide to meet up at a friend’s house named Spencer, only to find out that Spencer is missing.",
+      "A group of four friends found their way out of a dangerous game that sucked them in. Three years later, they decide to meet up at a friend’s house named Spencer.",
     link: "https://www.mxplayer.in/movie/watch-jumanji-the-next-level-hindi-dubbed-movie-online-bce7ae02445dad432bdab581e180ceef",
   },
   {

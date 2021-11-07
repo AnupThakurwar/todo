@@ -1,8 +1,8 @@
 import React, {  } from "react";
-
 import "./App.css";
-
 import "./ProjectComponents/MxPlayer.css";
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
+import ReadMoreReact from '../node_modules/read-more-react/dist/components/ReadMoreReact';
 
 import { Switch, Route } from "react-router-dom";
 import Home from "./ProjectComponents/Home";
@@ -13,7 +13,7 @@ function App() {
     <>
       <Switch>
         <Route exact path="/anup_thakurwar" component={Home} />
-        <Route path="/Favourite" component={FavoriteMovie} />
+        <Route path="/favourite" component={FavoriteMovie} />
       </Switch>
     </>
   );

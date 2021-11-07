@@ -26,13 +26,21 @@ const SearchBar = (props) => {
 
   return (
     <>
-      <input
+      {/* <input
         type="text"
         placeholder="search Movies Here"
         onChange={props.InputData}
         value={props.searchData}
         className="search_bar"
-      />
+      /> */}
+
+      <div class="input-group">
+        <div class="form-outline">
+          <input type="search" id="form1" class="form-control" placeholder="search Movies Here"  onChange={props.InputData} value={props.searchData}/>  
+          <span><i class="fas fa-search"></i></span>
+        </div>  
+       
+      </div>
     </>
   );
 };
