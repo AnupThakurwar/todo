@@ -16,9 +16,7 @@ function App() {
         <Route path="/favourite" component={FavoriteMovie} />
       </Switch>
 
-      {/* <h1>This is Sunny Branch pulled</h1> */}
-      {/* <h1>This is Brach 2</h1> */}
-        {/* <h1>This is Brach 2 Changed</h1> */}
+     
         
     </>
   );
