@@ -15,9 +15,11 @@ function App() {
         <Route exact path="/anup_thakurwar" component={Home} />
         <Route path="/favourite" component={FavoriteMovie} />
       </Switch>
-{/* 
-     <h1>jsgsgdue</h1> */}
-        
+
+      {/* <h1>This is Brach 2 Signal</h1> */}
+        {/* <h1>This is Brach 2 Changed</h1> */}
+          {/* <h1>This is Brach 2 Edited</h1> */}
+          {/* <h1>This is Brach 2 Edited</h1> */}
     </>
   );
 }
