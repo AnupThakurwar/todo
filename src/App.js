@@ -15,6 +15,8 @@ function App() {
         <Route exact path="/anup_thakurwar" component={Home} />
         <Route path="/favourite" component={FavoriteMovie} />
       </Switch>
+
+      {/* <h1>This is Brach 2</h1> */}
     </>
   );
 }
