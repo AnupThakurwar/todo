@@ -7,6 +7,7 @@ import { Switch, Route } from "react-router-dom";
 import Home from "./ProjectComponents/Home";
 import FavoriteMovie from "./ProjectComponents/FavoriteBtn";
 import TodoMain from "./ProjectComponents/TodoList/TodoMain";
+import FormProject from "./ProjectComponents/FormProject";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/todo" component={TodoMain} />
         <Route exact path="/anup_thakurwar" component={Home} />
         <Route path="/favourite" component={FavoriteMovie} />
+        <Route path="/form" component={FormProject} />
         
       </Switch>
     </>
