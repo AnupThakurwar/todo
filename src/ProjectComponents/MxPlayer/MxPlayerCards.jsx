@@ -30,9 +30,7 @@ const MxPlayerCards = (props) => {
                     <h2 className="card-title">{items.title} </h2>
                   </div>
                   <div height="100px">
-                    <h3 className="card-text">
-                      <ReadMoreReact text={items.overview} />
-                    </h3>
+                    <p className="card-description">{items.overview}</p>
                   </div>
                   <div>
                     <h3 className="card-text">
