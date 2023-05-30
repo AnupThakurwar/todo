@@ -13,12 +13,7 @@ const TodoMain = () => {
   const [toggleButton, setToggleButton] = useState(true);
   const [viewList, setViewList] = useState([]);
   const[toggleViewList, settoggleViewList] = useState(false);
-
-
-
-
-
-
+  
   const AddItems = () => {
      if(validation()){
       const ItemsData = {
@@ -37,7 +32,7 @@ const TodoMain = () => {
         // console.log("hello");
         setAllItems(
           AllItems.map((item) => {
-            if (item.id == upadteItemsId) {
+            if (item.id === upadteItemsId) {
               return { ...item, name: ItemsName };
             }
             return item;
@@ -72,7 +67,7 @@ const TodoMain = () => {
     // console.log("updateIndex", updateitem);
     setToggleButton(false);
     const updatedItem = AllItems.filter((item) => {
-      return item.id == updateitem.id;
+      return item.id === updateitem.id;
     });
     console.log(updatedItem);
     setItemsName(updatedItem[0].name);
@@ -95,7 +90,7 @@ const TodoMain = () => {
     if (result.isConfirmed) {
       const checkbox = document.getElementsByName("element")
       for(let i=0; i<AllItems.length;i++){
-          if(checkbox[i].checked == true ){
+          if(checkbox[i].checked === true ){
             checkbox[i].checked = false;
       }
    };
@@ -182,7 +177,8 @@ useEffect(()=>{
     if(item.isChecked !== 1){
       return item
     }
-  })
+    return;
+  },[AllItems])
   
   setAllUncheckCheckValue(alluncheckeditems)
 },[AllCheckValue])
@@ -216,7 +212,7 @@ const handleAllCheckbox = (e) => {
 function validation(){
   console.log("hello")
   const x = document.getElementById("inputbox")
-  if (x.value == "") {
+  if (x.value === "") {
     Swal.fire('please put any task')
     return false;
   }else{

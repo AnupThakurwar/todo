@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0rem;
+    padding: 0rem;
+    background-color: rgb(15, 23, 39);
+    
+  }
+
+ h2,h5{
+     color: azure;   
+     display: flex;
+     justify-content: center;
+     align-items: center    ;
+ }
+
+ button{
+     height: 40px;
+     width: 50px;
+     font-size: large;
+     color:green;
+     border-radius: 20%;
+     background-color: blue;
+ }
+
+ input{
+    height: 40px;
+    width: 150px;
+    background-color: aliceblue;
+    text-align: center;
+    font-size: large;
+ }
+ .all{
+    display: flex;
+    justify-content: center;
+    align-items: center    ;
+ }
+ div{
+    height: 70vh;
+   
+ }
