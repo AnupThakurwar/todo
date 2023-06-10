@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    margin: 0rem;
+    padding: 0rem;
+    background-color: rgb(15, 23, 39);
+}
+
+.containers{
+    display: block;
+    margin: auto;
+    background-color:darkslategrey;
+    height: 70rem;
+    width: 60rem;
+    border-radius: 12px;
+    border: 1px solid white;
+    padding: 12px;
+}
+
+.font1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 3.2rem;
+    text-align: center;
+    
+}
+
+.font2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.2rem;
+    text-align: center;
+    
+}
+.content_back{
+    background-color:bisque;
+    height: 60rem;
+    overflow-y: hidden;
+}
+
+.content_font{
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    background-color: bisque;
+    font-size: small;
+
+}
+.content_font2{
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Cambria', 'Cochin', Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    letter-spacing: 0ch;
+    background-color: bisque;
+    font-size: small;
+
+}
+
+
+input:focus {
+    outline: none ;
+}
+
+.btn_Add{
+    outline: none;
+    border: 0px ;
+}
+
+ol {
+    background-color: bisque;
+    padding: 0px;
+}
+
+ol li{
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    overflow-x: hidden;
+    word-break: break-word;
+   
+}
+li {
+    padding: 0.5rem 1.1rem;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    letter-spacing: 0.2rem;
+    font-weight: 500;
+    color: #fbfbfb;
+    cursor: pointer;
+    list-style-type: none;
+}
+
+.swal2-title{
+    background-color: #fbfbfb;
+}
+.swal2-actions {
+    background-color: white;
+}
+.swal2-success-ring{
+    color: #fbfbfb;
+}
